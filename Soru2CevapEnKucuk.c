@@ -16,11 +16,11 @@ main()
     {
 	enk = x;
     }
-    if(y<x)
+    else
     {
 	    enk = y;
     }
-    if(z<y)
+    if(z<enk)
     {
 	    enk = z;
     }
