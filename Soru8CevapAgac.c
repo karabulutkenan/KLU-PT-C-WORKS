@@ -1,34 +1,34 @@
 #include <stdio.h>
 
-int main() {
+main() {
 	
-	int yagisOrani;
-  float agacBoyu;
-  int i=1;
-  printf("Agac Boyu Giriniz (cm): ");
-  scanf("%f", &agacBoyu);
+int yagisOrani,yil=1;
+float agacBoyu;
+printf("Agac Boyu Giriniz (cm): ");
+scanf("%f", &agacBoyu);
 	
 
   do
   {
    
-	printf("%d. Yil Yagis Orani Giriniz %%",i++);
-     scanf("%d", &yagisOrani);
+	printf("%d. Yil Yagis Orani Giriniz %%",yil);
+     	scanf("%d", &yagisOrani);
+     		 
      
    if(yagisOrani<50)
    {
 		agacBoyu= agacBoyu*1.15;
-		printf("Agacinizin Boyu: %0.2f \n",agacBoyu); 
-   }
+}
    else {
   
        agacBoyu= agacBoyu*1.25;
-		printf("Agacinizin Boyu: %0.2f \n",agacBoyu);
      }
+      
+	   printf("%d. Yildaki Agacinizin Boyu: %0.2f \n",yil,agacBoyu);
+	   yil++;2
+	   
    }
-		
-		while(i<=20);
- 
-	
-	return 0;
+while(yil<=20);
+
 }
+
