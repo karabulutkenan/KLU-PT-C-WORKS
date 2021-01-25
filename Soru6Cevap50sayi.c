@@ -1,23 +1,18 @@
 #include <stdio.h>
-int main()
+main()
 {
-   int sayi;
-   int i, ort;
-   int toplam =0;
+   int sayi,i,toplam =0;
 
    for(i=1;i<=50;i++)
    {
      printf("%d). Sayiyi Giriniz:",i);
      scanf("%d",& sayi);
-     toplam=toplam+sayi;
      if(sayi==0){
-       break;
-       
+     break;
+     toplam=toplam+sayi; 
      }  
        
    }
        printf("Toplam: %d",toplam);
-       
-       getch();
 
 }
