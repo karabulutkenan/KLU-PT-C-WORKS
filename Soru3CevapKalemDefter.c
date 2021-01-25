@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+main(){
 	
 	int uruntipi, islem, kalemfiyati, defterfiyati, adet ;
 	
@@ -29,7 +29,7 @@ int main(){
 		}
 	
 	
-	getch();
+	
 	
 	
 }
