@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main()
+main()
 { 
     int x,y,z,enk;
     
@@ -12,26 +12,20 @@ int main()
 	printf(" Lutfen 3. Sayiyi Giriniz :");  
     scanf("%d",&z);
 	 
-    if(x<y){
-	if(x<z)
-	{
+    if(x<y)
+    {
 	enk = x;
-	}
-}
-	if(y<x){
-	if(y<z)
-	{
-	enk = y;
-	}
-	}
-	if(z<y){
-	if(z<x)
-	{
-	enk = z;
-	}
-}
-	printf ("Girdiginiz En Kucuk Sayi %d", enk);
-           
-    getch();
+    }
+    if(y<x)
+    {
+	    enk = y;
+    }
+    if(z<y)
+    {
+	    enk = z;
+    }
+
+	printf ("Girdiginiz En Kucuk Sayi %d", enk);   
+
 }
 
