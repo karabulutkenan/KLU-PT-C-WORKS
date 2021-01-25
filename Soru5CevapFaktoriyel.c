@@ -1,22 +1,18 @@
 #include <stdio.h>
-int main(){
+main(){
 	
-	int sayi;
-	int  faktoriyel=1;
-	int i;
+	int sayi,faktoriyel=1,i;
 	
 	printf("Lutfen Bir Sayi Giriniz: ");
 	scanf("%d",&sayi);
 
-	while(sayi>0){
+	while(sayi>=1){
+		
 	faktoriyel=sayi*faktoriyel;
 	sayi--;
 }
 
 	printf("Islem Sonucu: %d",faktoriyel);
-	
-	
-	getch();
 	
 	
 }
